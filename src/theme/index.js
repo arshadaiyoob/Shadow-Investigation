@@ -13,7 +13,7 @@ export const lightTheme = {
   text: "#121620",
   skin: "#fff",
   toggle: "#fff",
-  tr: "#F5FFFA",
+  tr: "#ECEFF1",
 };
 export const darkTheme = {
   body: "#121620",

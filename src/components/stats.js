@@ -9,7 +9,12 @@ import {
   Score,
 } from "./style/cardstat.styled";
 import { Container } from "./style/container.styled";
-
+import {
+  DropDownListContainer,
+  DropDownList,
+  ListItem,
+} from "./style/dropdown.styled";
+const options = ["Mangoes", "Apples", "Oranges"];
 export default function stats() {
   return (
     <Container>

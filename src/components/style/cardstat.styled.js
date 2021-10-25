@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const CardStat = styled.div`
   display: flex;
   width: 350px;
+  cursor: pointer;
   height: 110px;
   align-items: center;
   background-color: ${({ theme }) => theme.skin};
@@ -10,6 +11,10 @@ export const CardStat = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   margin: 0 20px;
   padding: 60;
+  &:hover {
+    opacity: 0.8;
+    transition: scale(0.5);
+  }
 `;
 
 export const EventLogo = styled.div`
@@ -42,6 +47,7 @@ export const Col = styled.div`
   display: flex;
   flex-direction: column;
   align-items: ${({ center }) => (center ? "center" : null)};
+  padding-left: ${({paddingLeft}) => paddingLeft ? paddingLeft : 0};
 `;
 
 export const Info = styled.h6`
