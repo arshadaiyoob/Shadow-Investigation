@@ -14,6 +14,8 @@ export const lightTheme = {
   skin: "#fff",
   toggle: "#fff",
   tr: "#ECEFF1",
+  footer: "#CFD8DC",
+  ftext: "#757575",
 };
 export const darkTheme = {
   body: "#121620",
@@ -21,4 +23,6 @@ export const darkTheme = {
   skin: "#263238",
   toggle: "#121620",
   tr: "#37474F",
+  footer: "#37474F",
+  ftext: "#ECEFF1",
 };

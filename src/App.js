@@ -7,6 +7,7 @@ import Fixture from "./components/fixture";
 import CardStat from "./components/stats";
 import Table from "./components/table";
 import { data } from "./components/makeData";
+import { Footer, FooterView, Text } from "./components/style/footer.styled";
 const App = () => {
   const [theme, setTheme] = useState("light");
   const isDarkTheme = theme === "dark";
@@ -38,6 +39,11 @@ const App = () => {
           <CardStat />
           <Table data={data} />
         </Container>
+        <FooterView>
+          <Footer>
+            <Text>Made with ❤️ by Team L1 Support</Text>
+          </Footer>
+        </FooterView>
       </>
     </ThemeProvider>
   );
